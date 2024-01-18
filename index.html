@@ -5,17 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoConnect - Staging</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: lightgreen;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8d7da;
+            /* Light Red */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #721c24;
+            /* Dark Red */
+        }
+
+        header {
+            background-color: #dc3545;
+            /* Red */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #dc3545;
+            /* Red */
+        }
+
+        p {
+            color: #721c24;
+            /* Dark Red */
+        }
+
+        .staging-info {
+            background-color: #f8d7da;
+            /* Light Red */
+            padding: 15px;
+            border: 1px solid #f5c6cb;
+            /* Darker Red */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .staging-warning {
+            background-color: #fff3cd;
+            /* Light Yellow */
+            padding: 15px;
+            border: 1px solid #ffeeba;
+            /* Darker Yellow */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .features-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .feature {
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            /* Dark Gray */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to GoConnect Staging</h1>
-    <p>This is the staging version for pre-production testing and quality assurance.</p>
-    <!-- Additional staging-related content -->
+    <header>
+        <h1>GoConnect - Staging</h1>
+    </header>
+
+    <main>
+        <div class="staging-info">
+            <p>This is the staging version for pre-production testing and quality assurance.</p>
+            <p>Please test the following features thoroughly:</p>
+            <ul class="features-list">
+                <li>Enhanced User Profiles with Ride History</li>
+                <li>AI-driven Route Optimization</li>
+                <li>Voice Commands for Navigation</li>
+                <!-- Add more features currently in development -->
+            </ul>
+        </div>
+
+        <div class="staging-warning">
+            <p>Known Issues:</p>
+            <ul class="features-list">
+                <li>Some users may experience issues with real-time tracking.</li>
+                <li>Intermittent problems with in-app chat support.</li>
+                <!-- Add more known issues if applicable -->
+            </ul>
+            <p>Please report any additional issues you encounter during testing.</p>
+        </div>
+
+        <div class="feature">
+            <h2>Bike Ride Service</h2>
+            <ul class="features-list">
+                <li>Request a Bike Ride</li>
+                <li>Real-time Bike Tracking</li>
+                <li>In-app Chat Support for Riders and Drivers</li>
+                <li>Secure Payment Options</li>
+                <li>Fare Estimation</li>
+                <!-- Additional bike-specific features -->
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Car Ride Service</h2>
+            <ul class="features-list">
+                <li>Request a Car Ride</li>
+                <li>Real-time Car Tracking</li>
+                <li>In-app Chat Support for Riders and Drivers</li>
+                <li>Secure Payment Options</li>
+                <li>Fare Estimation</li>
+                <!-- Additional car-specific features -->
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Multi-Modal Transportation</h2>
+            <ul class="features-list">
+                <li>Users can choose between bikes and cars for their rides.</li>
+                <li>Option to switch between bike and car during the ride.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Payment Integration</h2>
+            <ul class="features-list">
+                <li>Secure payment options (credit card, digital wallets, etc.).</li>
+                <li>Fare estimation before confirming the ride.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>User Profiles</h2>
+            <ul class="features-list">
+                <li>User registration and authentication.</li>
+                <li>User profiles with ride history.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Rating and Reviews</h2>
+            <ul class="features-list">
+                <li>Users can rate and review drivers.</li>
+                <li>Drivers can rate and review users.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Geolocation Services</h2>
+            <ul class="features-list">
+                <li>Accurate location tracking using GPS.</li>
+                <li>Route optimization for faster and efficient rides.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Promotions and Discounts</h2>
+            <ul class="features-list">
+                <li>Promo codes and discounts for users.</li>
+                <li>Special promotions for frequent riders.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 GoConnect - All rights reserved.
+    </footer>
 </body>
 
 </html>
