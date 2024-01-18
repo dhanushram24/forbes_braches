@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoConnect - Bike Application</title>
+    <title>GoConnect</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9;
+            background-color: #f8f9fa;
             /* Light Gray */
             margin: 0;
             padding: 0;
@@ -17,8 +18,8 @@
         }
 
         header {
-            background-color: #ff9966;
-            /* Light Orange */
+            background-color: #007bff;
+            /* Primary Blue */
             padding: 20px;
             text-align: center;
             color: white;
@@ -29,25 +30,30 @@
         }
 
         h1 {
-            color: #ff9966;
-            /* Light Orange */
+            color: #007bff;
+            /* Primary Blue */
         }
 
         p {
             color: #555;
         }
 
-        ul {
+        .features-list {
             list-style-type: none;
             padding: 0;
         }
 
-        li {
+        .feature {
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
             margin-bottom: 10px;
         }
 
         footer {
-            background-color: #333;
+            background-color: #343a40;
+            /* Dark Gray */
             color: white;
             text-align: center;
             padding: 10px;
@@ -60,20 +66,70 @@
 
 <body>
     <header>
-        <h1>GoConnect - Bike Application</h1>
+        <h1>GoConnect</h1>
     </header>
 
     <main>
-        <p>Welcome to the Bike Application of GoConnect!</p>
-        <p>Features:</p>
-        <ul>
-            <li>Request a Bike Ride</li>
-            <li>Real-time Bike Tracking</li>
-            <li>In-app Chat Support for Riders and Drivers</li>
-            <li>Secure Payment Options</li>
-            <li>Fare Estimation</li>
-            <!-- Add more bike-specific features here -->
-        </ul>
+        <p>Welcome to GoConnect, your ideal transportation solution!</p>
+
+        <div class="feature">
+            <h2>Car Ride Service</h2>
+            <ul class="features-list">
+                <li>Request a Car Ride</li>
+                <li>Real-time Car Tracking</li>
+                <li>In-app Chat Support for Riders and Drivers</li>
+                <li>Secure Payment Options</li>
+                <li>Fare Estimation</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Multi-Modal Transportation</h2>
+            <ul class="features-list">
+                <li>Users can choose between cars for their rides.</li>
+                <li>Option to switch between car during the ride.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Payment Integration</h2>
+            <ul class="features-list">
+                <li>Secure payment options (credit card, digital wallets, etc.).</li>
+                <li>Fare estimation before confirming the ride.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>User Profiles</h2>
+            <ul class="features-list">
+                <li>User registration and authentication.</li>
+                <li>User profiles with ride history.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Rating and Reviews</h2>
+            <ul class="features-list">
+                <li>Users can rate and review drivers.</li>
+                <li>Drivers can rate and review users.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Geolocation Services</h2>
+            <ul class="features-list">
+                <li>Accurate location tracking using GPS.</li>
+                <li>Route optimization for faster and efficient rides.</li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <h2>Promotions and Discounts</h2>
+            <ul class="features-list">
+                <li>Promo codes and discounts for users.</li>
+                <li>Special promotions for frequent riders.</li>
+            </ul>
+        </div>
     </main>
 
     <footer>
